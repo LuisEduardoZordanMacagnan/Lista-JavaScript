@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    display: grid;
+    grid-template-areas:
+        'cima cima cima'
+        'baixo baixo baixo';
+    grid-gap: 0px;
+}
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+#cima{
+    grid-area: cima;
+}
+#baixo {
+    grid-area: baixo;
+}
+p{
+    border: 2px solid black;
+    width: 150%;
+    text-align: center;
+}

@@ -5,6 +5,10 @@ body{
     justify-content: center;
     height: 100vw;
 }
-#lista{
-    border: 2px 2px solid black;
+#lista {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
 }
