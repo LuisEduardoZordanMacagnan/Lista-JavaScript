@@ -21,7 +21,7 @@ function inserir() {
 function apagar() {
     for (var i = 0; i < array.length; i++) {
         if (input.value == array[i]) {
-            array.splice(1);
+            array.splice(i, 1);
             listar();
         }
     }
